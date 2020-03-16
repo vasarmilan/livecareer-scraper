@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 
+import os
+
+ROOTDIR = os.path.dirname(__file__)
+
 # Scrapy settings for livecareer project
 #
 # For simplicity, this file contains only settings considered important or
@@ -14,6 +18,14 @@ BOT_NAME = 'livecareer'
 SPIDER_MODULES = ['livecareer.spiders']
 NEWSPIDER_MODULE = 'livecareer.spiders'
 
+# proxy rotation
+DOWNLOADER_MIDDLEWARES = {
+    'rotating_proxies.middlewares.RotatingProxyMiddleware': 610,
+    'rotating_proxies.middlewares.BanDetectionMiddleware': 620,
+ 
+}
+
+ROTATING_PROXY_LIST = os.path.join(ROOTDIR, 'proxies.txt')
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'livecareer (+http://www.yourdomain.com)'
