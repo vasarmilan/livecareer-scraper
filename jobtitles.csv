@@ -1,0 +1,436 @@
+ID,job_category,job_title
+1,data,data scientist
+2,data,Business Intelligence Analyst
+3,data,Database Developer
+4,data,Database Administrator
+5,data,Data Engineer
+6,data,Data Security Administrator
+7,marketing,Marketing Specialist
+8,marketing,Marketing Manager
+9,marketing,Marketing Director
+10,marketing,Graphic Designer
+11,marketing,Marketing Research Analyst
+12,marketing,Marketing Communications Manager
+13,marketing,Marketing Consultant
+14,marketing,Product Manager
+15,marketing,Public Relations
+16,marketing,Social Media Assistant
+17,marketing,Brand Manager
+18,marketing,SEO Manager
+19,marketing,Content Marketing Manager
+20,marketing,Copywriter
+21,marketing,Media Buyer
+22,marketing,Digital Marketing Manager
+23,marketing,eCommerce Marketing Specialist
+24,marketing,Brand Strategist
+25,marketing,Vice President of Marketing
+26,marketing,Media Relations Coordinator
+27,administrative,Administrative Assistant
+28,administrative,Receptionist
+29,administrative,Office Manager
+30,administrative,Auditing Clerk
+31,administrative,Bookkeeper
+32,administrative,Account Executive
+33,administrative,Branch Manager
+34,administrative,Business Manager
+35,administrative,Quality Control Coordinator
+36,administrative,Administrative Manager
+37,administrative,Chief Executive Officer
+38,administrative,Business Analyst
+39,administrative,Risk Manager
+40,administrative,Human Resources
+41,administrative,Office Assistant
+42,administrative,Secretary
+43,administrative,Office Clerk
+44,administrative,File Clerk
+45,administrative,Account Collector
+46,administrative,Administrative Specialist
+47,administrative,Executive Assistant
+48,administrative,Program Administrator
+49,administrative,Program Manager
+50,administrative,Administrative Analyst
+51,administrative,Data Entry
+52,executive,CEO Chief Executive Officer
+53,executive,COO Chief Operating Officer
+54,executive,CFO Chief Financial Officer
+55,executive,CIO Chief Information Officer
+56,executive,CTO Chief Technology Officer
+57,executive,CMO Chief Marketing Officer
+58,executive,CHRO Chief Human Resources Officer
+59,executive,CDO Chief Data Officer
+60,executive,CPO Chief Product Officer
+61,executive,CCO Chief Customer Officer
+62,leadership,Team Leader
+63,leadership,Manager
+64,leadership,Assistant Manager
+65,leadership,Executive
+66,leadership,Director
+67,leadership,Coordinator
+68,leadership,Administrator
+69,leadership,Controller
+70,leadership,Officer
+71,leadership,Organizer
+72,leadership,Supervisor
+73,leadership,Superintendent
+74,leadership,Head
+75,leadership,Overseer
+76,leadership,Chief
+77,leadership,Foreman
+78,leadership,Controller
+79,leadership,Principal
+80,leadership,President
+81,leadership,Lead
+82,info_tech,Computer Scientist
+83,info_tech,IT Professional
+84,info_tech,UX Designer & UI Developer
+85,info_tech,SQL Developer
+86,info_tech,Web Designer
+87,info_tech,Web Developer
+88,info_tech,Help Desk Worker/Desktop Support
+89,info_tech,Software Engineer
+90,info_tech,Data Entry
+91,info_tech,DevOps Engineer
+92,info_tech,Computer Programmer
+93,info_tech,Network Administrator
+94,info_tech,Information Security Analyst
+95,info_tech,Artificial Intelligence Engineer
+96,info_tech,Cloud Architect
+97,info_tech,IT Manager
+98,info_tech,Technical Specialist
+99,info_tech,Application Developer
+100,info_tech,Chief Technology Officer (CTO)
+101,info_tech,Chief Information Officer (CIO)
+102,sales,Sales Associate
+103,sales,Sales Representative
+104,sales,Sales Manager
+105,sales,Retail Worker
+106,sales,Store Manager
+107,sales,Sales Representative
+108,sales,Sales Manager
+109,sales,Real Estate Broker
+110,sales,Sales Associate
+111,sales,Cashier
+112,sales,Store Manager
+113,sales,Account Executive
+114,sales,Account Manager
+115,sales,Area Sales Manager
+116,sales,Direct Salesperson
+117,sales,Director of Inside Sales
+118,sales,Outside Sales Manager
+119,sales,Sales Analyst
+120,sales,Market Development Manager
+121,sales,B2B Sales Specialist
+122,sales,Sales Engineer
+123,sales,Merchandising Associate
+124,construction,Construction Worker
+125,construction,Taper
+126,construction,Plumber
+127,construction,Heavy Equipment Operator
+128,construction,Vehicle or Equipment Cleaner
+129,construction,Carpenter
+130,construction,Electrician
+131,construction,Painter
+132,construction,Welder
+133,construction,Handyman
+134,construction,Boilermaker
+135,construction,Crane Operator
+136,construction,Building Inspector
+137,construction,Pipefitter
+138,construction,Sheet Metal Worker
+139,construction,Iron Worker
+140,construction,Mason
+141,construction,Roofer
+142,construction,Solar Photovoltaic Installer
+143,construction,Well Driller
+144,business_owner,CEO
+145,business_owner,Proprietor
+146,business_owner,Principal
+147,business_owner,Owner
+148,business_owner,President
+149,business_owner,Founder
+150,business_owner,Administrator
+151,business_owner,Director
+152,business_owner,Managing Partner
+153,business_owner,Managing Member
+154,customer_support,Virtual Assistant
+155,customer_support,Customer Service
+156,customer_support,Customer Support
+157,customer_support,Concierge
+158,customer_support,Help Desk
+159,customer_support,Customer Service Manager
+160,customer_support,Technical Support Specialist
+161,customer_support,Account Representative
+162,customer_support,Client Service Specialist
+163,customer_support,Customer Care Associate
+164,customer_support,Customer Success
+165,operations,Operations Manager
+166,operations,Operations Assistant
+167,operations,Operations Coordinator
+168,operations,Operations Analyst
+169,operations,Operations Director
+170,operations,Vice President of Operations
+171,operations,Operations Professional
+172,operations,Scrum Master
+173,operations,Continuous Improvement Lead
+174,operations,Continuous Improvement Consultant
+175,finance,Credit Authorizer
+176,finance,Benefits Manager
+177,finance,Credit Counselor
+178,finance,Accountant
+179,finance,Bookkeeper
+180,finance,Accounting Analyst
+181,finance,Accounting Director
+182,finance,Accounts Payable/Receivable Clerk
+183,finance,Auditor
+184,finance,Budget Analyst
+185,finance,Controller
+186,finance,Financial Analyst
+187,finance,Finance Manager
+188,finance,Economist
+189,finance,Payroll Manager
+190,finance,Payroll Clerk
+191,finance,Financial Planner
+192,finance,Financial Services Representative
+193,finance,Finance Director
+194,finance,Commercial Loan Officer
+195,engineering,Engineer
+196,engineering,Mechanical Engineer
+197,engineering,Civil Engineer
+198,engineering,Electrical Engineer
+199,engineering,Assistant Engineer
+200,engineering,Chemical Engineer
+201,engineering,Chief Engineer
+202,engineering,Drafter
+203,engineering,Engineering Technician
+204,engineering,Geological Engineer
+205,engineering,Biological Engineer
+206,engineering,Maintenance Engineer
+207,engineering,Mining Engineer
+208,engineering,Nuclear Engineer
+209,engineering,Petroleum Engineer
+210,engineering,Plant Engineer
+211,engineering,Production Engineer
+212,engineering,Quality Engineer
+213,engineering,Safety Engineer
+214,engineering,Sales Engineer
+215,other,Chief People Officer
+216,other,VP of Miscellaneous Stuff
+217,other,Chief Robot Whisperer
+218,other,Director of First Impressions
+219,other,Culture Operations Manager
+220,other,Director of Ethical Hacking
+221,other,Software Ninjaneer
+222,other,Director of Bean Counting
+223,other,Digital Overlord
+224,other,Director of Storytelling
+225,research_analyst,Researcher
+226,research_analyst,Research Assistant
+227,research_analyst,Data Analyst
+228,research_analyst,Business Analyst
+229,research_analyst,Financial Analyst
+230,research_analyst,Biostatistician
+231,research_analyst,Title Researcher
+232,research_analyst,Market Researcher
+233,research_analyst,Title Analyst
+234,research_analyst,Medical Researcher
+235,teaching,Mentor
+236,teaching,Tutor/Online Tutor
+237,teaching,Teacher
+238,teaching,Teaching Assistant
+239,teaching,Substitute Teacher
+240,teaching,Preschool Teacher
+241,teaching,Test Scorer
+242,teaching,Online ESL Instructor
+243,teaching,Professor
+244,teaching,Assistant Professor
+245,artistic,Graphic Designer
+246,artistic,Artist
+247,artistic,Interior Designer
+248,artistic,Video Editor
+249,artistic,Video or Film Producer
+250,artistic,Playwright
+251,artistic,Musician
+252,artistic,Novelist/Writer
+253,artistic,Computer Animator
+254,artistic,Photographer
+255,artistic,Camera Operator
+256,artistic,Sound Engineer
+257,artistic,Motion Picture Director
+258,artistic,Actor
+259,artistic,Music Producer
+260,artistic,Director of Photography
+261,healthcare,Nurse
+262,healthcare,Travel Nurse
+263,healthcare,Nurse Practitioner
+264,healthcare,Doctor
+265,healthcare,Caregiver
+266,healthcare,CNA
+267,healthcare,Physical Therapist
+268,healthcare,Pharmacist
+269,healthcare,Pharmacy Assistant
+270,healthcare,Medical Administrator
+271,healthcare,Medical Laboratory Tech
+272,healthcare,Physical Therapy Assistant
+273,healthcare,Massage Therapy
+274,healthcare,Dental Hygienist
+275,healthcare,Orderly
+276,healthcare,Personal Trainer
+277,healthcare,Massage Therapy
+278,healthcare,Medical Laboratory Tech
+279,healthcare,Phlebotomist
+280,healthcare,Medical Transcriptionist
+281,healthcare,Telework Nurse/Doctor
+282,healthcare,Reiki Practitioner
+283,hospitality,Housekeeper
+284,hospitality,Flight Attendant
+285,hospitality,Travel Agent
+286,hospitality,Hotel Front Door Greeter
+287,hospitality,Bellhop
+288,hospitality,Cruise Director
+289,hospitality,Entertainment Specialist
+290,hospitality,Hotel Manager
+291,hospitality,Front Desk Associate
+292,hospitality,Front Desk Manager
+293,hospitality,Concierge
+294,hospitality,Group Sales
+295,hospitality,Event Planner
+296,hospitality,Porter
+297,hospitality,Spa Manager
+298,hospitality,Wedding Coordinator
+299,hospitality,Cruise Ship Attendant
+300,hospitality,Casino Host
+301,hospitality,Hotel Receptionist
+302,hospitality,Reservationist
+303,hospitality,Events Manager
+304,hospitality,Meeting Planner
+305,hospitality,Lodging Manager
+306,hospitality,Director of Maintenance
+307,hospitality,Valet
+308,food_service,Waiter/Waitress
+309,food_service,Server
+310,food_service,Chef
+311,food_service,Fast Food Worker
+312,food_service,Barista
+313,food_service,Line Cook
+314,food_service,Cafeteria Worker
+315,food_service,Restaurant Manager
+316,food_service,Wait Staff Manager
+317,food_service,Bus Person
+318,food_service,Restaurant Chain Executive
+319,scientist,Political Scientist
+320,scientist,Chemist
+321,scientist,Conservation Scientist
+322,scientist,Sociologist
+323,scientist,Biologist
+324,scientist,Geologist
+325,scientist,Physicist
+326,scientist,Astronomer
+327,scientist,Atmospheric Scientist
+328,scientist,Molecular Scientist
+329,on_phone,Call Center Representative
+330,on_phone,Customer Service
+331,on_phone,Telemarketer
+332,on_phone,Telephone Operator
+333,on_phone,Phone Survey Conductor
+334,on_phone,Dispatcher for Trucks or Taxis
+335,on_phone,Customer Support Representative
+336,on_phone,Over the Phone Interpreter
+337,on_phone,Phone Sales Specialist
+338,on_phone,Mortgage Loan Processor
+339,counseling,Counselor
+340,counseling,Mental Health Counselor
+341,counseling,Addiction Counselor
+342,counseling,School Counselor
+343,counseling,Speech Pathologist
+344,counseling,Guidance Counselor
+345,counseling,Social Worker
+346,counseling,Therapist
+347,counseling,Life Coach
+348,counseling,Couples Counselor
+349,cosmetology,Beautician
+350,cosmetology,Hair Stylist
+351,cosmetology,Nail Technician
+352,cosmetology,Cosmetologist
+353,cosmetology,Salon Manager
+354,cosmetology,Makeup Artist
+355,cosmetology,Esthetician
+356,cosmetology,Skin Care Specialist
+357,cosmetology,Manicurist
+358,cosmetology,Barber
+359,writing,Journalist
+360,writing,Copy Editor
+361,writing,Editor/Proofreader
+362,writing,Content Creator
+363,writing,Speechwriter
+364,writing,Communications Director
+365,writing,Screenwriter
+366,writing,Technical Writer
+367,writing,Columnist
+368,writing,Public Relations Specialist
+369,writing,Proposal Writer
+370,writing,Content Strategist
+371,writing,Grant Writer
+372,writing,Video Game Writer
+373,writing,Translator
+374,writing,Film Critic
+375,writing,Copywriter
+376,writing,Travel Writer
+377,writing,Social Media Specialist
+378,writing,Ghostwriter
+379,physical_labor,Warehouse Worker
+380,physical_labor,Painter
+381,physical_labor,Truck Driver
+382,physical_labor,Heavy Equipment Operator
+383,physical_labor,Welding
+384,physical_labor,Physical Therapy Assistant
+385,physical_labor,Housekeeper
+386,physical_labor,Landscaping Worker
+387,physical_labor,Landscaping Assistant
+388,physical_labor,Mover
+389,animals,Animal Breeder
+390,animals,Veterinary Assistant
+391,animals,Farm Worker
+392,animals,Animal Shelter Worker
+393,animals,Dog Walker / Pet Sitter
+394,animals,Zoologist
+395,animals,Animal Trainer
+396,animals,Service Dog Trainer
+397,animals,Animal Shelter Manager
+398,animals,Animal Control Officer
+399,driving,Delivery Driver
+400,driving,School Bus Driver
+401,driving,Truck Driver
+402,driving,Tow Truck Operator
+403,driving,UPS Driver
+404,driving,Mail Carrier
+405,driving,Recyclables Collector
+406,driving,Courier
+407,driving,Bus Driver
+408,driving,Cab Driver
+409,other,Archivist
+410,other,Actuary
+411,other,Architect
+412,other,Personal Assistant
+413,other,Entrepreneur
+414,other,Security Guard
+415,other,Mechanic
+416,other,Recruiter
+417,other,Mathematician
+418,other,Locksmith
+419,other,Management Consultant
+420,other,Shelf Stocker
+421,other,Caretaker or House Sitter
+422,other,Library Assistant
+423,other,Translator
+424,other,HVAC Technician
+425,other,Attorney
+426,other,Paralegal
+427,other,Executive Assistant
+428,other,Personal Assistant
+429,other,Bank Teller
+430,other,Parking Attendant
+431,other,Machinery Operator
+432,other,Manufacturing Assembler
+433,other,Funeral Attendant
+434,other,Assistant Golf Professional
+435,other,Yoga Instructor

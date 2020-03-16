@@ -1,0 +1,6 @@
+data
+*.md
+!README.md
+*.html
+__pycache__/
+*.py[cod]
