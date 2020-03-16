@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import requests
 
 ROOTDIR = os.path.dirname(__file__)
 
@@ -25,7 +26,18 @@ DOWNLOADER_MIDDLEWARES = {
  
 }
 
-ROTATING_PROXY_LIST = os.path.join(ROOTDIR, 'proxies.txt')
+import re
+url = 'https://free-proxy-list.net/'
+headers = {'User-Agent':
+           'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5)'
+           'AppleWebKit/537.36 (KHTML, like Gecko) Cafari/537.36'}
+source = str(requests.get(url, headers=headers, timeout=10).text)
+data = [list(filter(None, i))[0] for i in re.findall(
+    '<td class="hm">(.*?)</td>|<td>(.*?)</td>', source)]
+proxies = [':'.join(data[i:i+2])
+           for i in range(0, len(data)-80, 4)]
+
+ROTATING_PROXY_LIST = proxies
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'livecareer (+http://www.yourdomain.com)'
