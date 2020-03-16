@@ -1,7 +1,9 @@
 # Environment
 
-Tested with  Python 3.7.5 and scrapy version 1.7.3
-Apart from scrapy, the project only uses the standard library.
+Test environment:
+1. Python 3.7.5
+2. scrapy version 1.7.3
+3. scrapy-rotating-proxies version 0.6.2
 
 # Usage
 
